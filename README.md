@@ -5,7 +5,6 @@ This methodology and code are based on the Nature Protocols paper: Tran-Nguyen, 
 
 Before running the notebook, we suggest configuring the protocol-env environment. This can be done using the protocol-env.yml file available in the https://github.com/vktrannguyen/MLSF-protocol.
 
-![Methodology workflow of this study](Figures/Figure_2.png)
 <p align="center">
   <img src="Figures/Figure_2.png" alt="Methodology workflow" width="600"/>
 </p>
