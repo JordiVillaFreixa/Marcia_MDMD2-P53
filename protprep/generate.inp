@@ -1,0 +1,29 @@
+rl  OPLS2005.lib
+rl  NUT.lib
+
+#Read the parameter 
+rff OPLS2005_lig_all.prm
+#Read the starting, usually precleaned pdb file.
+rp  protein.pdb
+
+ls
+lr 1
+preferences
+
+#you need to create the sulfur-sulfur bridges.
+#addbond atomnum atomnum y
+
+#Create water sphere
+boundary sphere 79:CB 30
+solvate 79:CB 30 1 HOH
+
+mt complex_w
+wt complex_w.top
+
+#checkbonds 6
+#checkangs  6
+#checktors  6
+#checkimps  6
+
+wp complex_w.pdb y
+quit
