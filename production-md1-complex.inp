@@ -21,7 +21,7 @@ trajectory                                    10000
 
 [files]
 topology                               complex_w.top
-restart                                       eq2.re
+restart                                       eq5.re
 final                               prod1_complex.re
 trajectory                          pro1_complex.dcd
 energy                               pro1_complex.en
