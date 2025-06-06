@@ -1,0 +1,31 @@
+[MD]
+steps                                       6000000
+temperature                                  310.15
+stepsize                                          1
+bath_coupling                                   100
+separate_scaling                                 on
+lrf                                              on
+
+[cut-offs]
+solute_solute                                    10
+solvent_solvent                                  10
+solute_solvent                                   10
+!q_atom                                           99
+
+[intervals]
+non_bond                                          25
+output                                            50
+!temperature                                   10000
+energy                                           10
+trajectory                                    10000
+
+[files]
+topology                               complex_w.top
+restart                                       eq2.re
+final                               prod1_complex.re
+trajectory                          pro1_complex.dcd
+energy                               pro1_complex.en
+fep                                         lig.fep
+
+[sequence_restraints]
+1513 1582 0.5 0 1 !Restraints in small molecule
