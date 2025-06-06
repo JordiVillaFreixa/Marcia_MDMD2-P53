@@ -23,8 +23,8 @@ output                                           50
 
 [files]
 topology                               complex_w.top
-restart                                      eq1.re
-final                                        eq2.re
+restart                                      eq3.re
+final                                        eq4.re
 fep                                        lig.fep
 
 [sequence_restraints]
