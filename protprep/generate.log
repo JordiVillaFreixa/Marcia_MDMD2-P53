@@ -1,0 +1,283 @@
+
+Build and version information
+
+Build number 6.0.9
+Build date   20250515
+Built:       
+      by     ma.castillot
+      on     sn4622119831
+      git id d993af2a20623fcf9dc867341fb6902d395c0ec9
+      with   GNU Fortran GCC 11.4.1 20231218 Red Hat 11.4.1-3
+qprep version 6.0.9 , git id=d993af2a20623fcf9dc867341fb6902d395c0ec9 initialising
+Current date 2025- 6- 4 and time 15:53:48
+
+Welcome in qprep modification date 20250515
+
+ Q6, Copyright © 2017 Johan Åqvist, John Marelius, Shina Caroline Lynn Kamerlin and Paul Bauer
+ Q6 comes with ABSOLUTELY NO WARRANTY.  This is free software, and you are welcome
+ to redistribute it under certain conditions. For details, add the --help flag.
+
+Qprep> 
+Reading molecular library OPLS2005.lib
+
+name  atoms  net Q  bonds  rules   imps Q-grps
+ALA      10   0.00      9      0      2      3
+ARG      24   1.00     23      2      6      4
+ARN      23   0.00     22      2      5      5
+ASN      14   0.00     13      1      4      5
+ASP      12  -1.00     11      0      3      3
+ASH      13   0.00     12      1      3      4
+CYS      11   0.00     10      0      2      3
+CYX      10   0.00      9      0      2      3
+GLN      17   0.00     16      1      4      6
+GLU      15  -1.00     14      0      3      4
+GLH      16   0.00     15      1      3      5
+GLY       7   0.00      6      0      2      2
+HIP      18   1.00     18      0      7      3
+HID      17   0.00     17      0      6      3
+HIE      17   0.00     17      0      6      3
+ILE      19   0.00     18      0      2      6
+LEU      19   0.00     18      0      2      6
+LYS      22   1.00     21      0      2      6
+KCX      23  -1.00     22      0      4      6
+LYN      21   0.00     20      0      2      6
+MET      17   0.00     16      0      2      4
+PHE      20   0.00     20      0      8      8
+PRO      14   0.00     14      0      2      4
+SEB      10  -0.42      9      0      2      3
+>>> Warning: fractional charge = -0.41800 on group no.  2
+SER      11  -0.00     10      0      2      3
+THR      14  -0.00     13      0      2      4
+TRP      24   0.00     25      0     11      8
+TYR      21   0.00     21      0      8      8
+VAL      16   0.00     15      0      2      5
+NALA     12   1.00     11      0      1      3
+NAR+     26   2.00     25      2      5      4
+NARG     25   1.00     24      2      4      5
+NASN     16   1.00     15      1      3      5
+NAS-     14   0.00     13      0      2      3
+NASP     15   1.00     14      1      2      4
+NCYS     13   1.00     12      0      1      3
+NCYX     12   1.00     11      0      1      3
+NGLN     19   1.00     18      1      3      6
+NGL-     17   0.00     16      0      2      4
+NGLU     18   1.00     17      1      2      5
+NGLY      9   1.00      8      0      1      2
+NHIP     20   2.00     20      0      6      3
+NHID     19   1.00     19      0      5      3
+NHIE     19   1.00     19      0      5      3
+NILE     21   1.00     20      0      1      6
+NLEU     21   1.00     20      0      1      6
+NLYP     24   2.00     23      0      1      6
+NLY+     24   2.00     23      0      1      6
+NLYS     23   1.00     22      0      1      6
+NMET     19   1.00     18      0      1      4
+NPHE     22   1.00     22      0      7      8
+NPRO     16   1.00     16      0      1      4
+NSER     13   1.00     12      0      1      3
+NTHR     16   1.00     15      0      1      4
+NTRP     26   1.00     27      0     10      8
+NTYR     23   1.00     23      0      7      8
+NVAL     18   1.00     17      0      1      5
+CALA     11  -1.00     10      0      2      2
+CAR+     25   0.00     24      2      6      3
+CARG     24  -1.00     23      2      5      4
+CASN     15  -1.00     14      1      4      4
+CAS-     13  -2.00     12      0      3      2
+CASP     14  -1.00     13      1      3      3
+CCYS     12  -1.00     11      0      2      2
+CCYX     11  -1.00     10      0      2      2
+CGLN     18  -1.00     17      1      4      5
+CGL-     16  -2.00     15      0      3      3
+CGLU     17  -1.00     16      1      3      4
+CGLY      8  -1.00      7      0      2      1
+CHIP     19  -0.00     19      0      7      2
+CHID     18  -1.00     18      0      6      2
+CHIE     18  -1.00     18      0      6      2
+CILE     20  -1.00     19      0      2      5
+CLEU     20  -1.00     19      0      2      5
+CLYP     23   0.00     22      0      2      5
+CLY+     23   0.00     22      0      2      5
+CLYS     22  -1.00     21      0      2      5
+CMET     18  -1.00     17      0      2      3
+CPHE     21  -1.00     21      0      8      7
+CPRO     15  -1.00     15      0      1      3
+CSER     12  -1.00     11      0      2      2
+CTHR     15  -1.00     14      0      2      3
+CTRP     25  -1.00     26      0     11      7
+CTYR     22  -1.00     22      0      8      7
+CVAL     17  -1.00     16      0      2      4
+HOH       3   0.00      3      0      0      1
+SPC       3   0.00      3      0      0      1
+K+        1   1.00      0      0      0    none, creating default
+Na+       1   1.00      0      0      0    none, creating default
+Ca2       1   2.00      0      0      0    none, creating default
+Cl-       1  -1.00      0      0      0    none, creating default
+ZN2       5   2.00      4      0      0    none, creating default
+POP      52   0.00     51      0      3     18
+
+Accumulated no. of library entries loaded =  93
+
+Qprep> 
+Reading molecular library NUT.lib
+
+name  atoms  net Q  bonds  rules   imps Q-grps
+LIG      70  -0.00     74      0     24    none, creating default
+
+Accumulated no. of library entries loaded =  94
+
+Qprep> Qprep> 
+Reading force field parameter file.
+Forcefield name:               Q-OPLSAA
+Forcefield type:               AMBER
+Lennard-Jones combination rule:GEOMETRIC
+Scaling of 1-4 electrostatics: 0.500
+Cut-off rule:                  switching atoms
+Improper potential:            PERIODIC
+Improper generation:           EXPLICIT
+Coulomb constant:              332.0716
+Read  130 atom types
+>>>>> WARNING: No SYBYL name for one or more atom types.
+Read    0 atom type alias names
+Read    0 LJ type 2 pairs
+Read  174 bond types
+Read   55 unique bond parameters
+>>>>> WARNING: No SYBYL bond type for one or more bond types.
+Read  335 angle types
+Read  102  unique angle parameters
+Read 1222 torsion types
+Read  224 unique torsion parameters
+Read   82 improper types
+Force field parameters successfully read.
+
+Qprep> 
+>>>WARNING: ignoring unrecognised line in PDB file
+END
+PDB file contains  1582 atoms.
+The number of atoms in the topology will be  1582
+molecule    1: GLN     1 - CVAL   91
+molecule    2: LIG     1
+
+Successfully read PDB file with    2 molecules,
+   92 residues totally (   92 in solute).
+ 1582 atoms totally ( 1582 in solute).
+
+Sequence listing:
+
+GLN  ILE  PRO  ALA  SER  GLU  GLN  GLU  THR  LEU  VAL  ARN  PRO  LYN  PRO  LEU 
+LEU  LEU  LYN  LEU  LEU  LYN  SER  VAL  GLY  ALA  GLN  LYS  ASH  THR  TYR  THR 
+MET  LYS  GLU  VAL  LEU  PHE  TYR  LEU  GLY  GLN  TYR  ILE  MET  THR  LYS  ARN 
+LEU  TYR  ASP  ALA  ALA  GLN  GLN  HIE  ILE  VAL  TYR  CYS  SER  ASN  ASP  LEU 
+LEU  GLY  ASH  LEU  PHE  GLY  VAL  PRO  SER  PHE  SER  VAL  LYS  GLU  HIE  ARG 
+LYN  ILE  TYR  THR  MET  ILE  TYR  ARN  ASN  LEU  CVAL LIG 
+
+Qprep> Qprep> Sequence listing:
+
+   1-GLN    2-ILE    3-PRO    4-ALA    5-SER    6-GLU    7-GLN    8-GLU    9-THR 
+  10-LEU   11-VAL   12-ARN   13-PRO   14-LYN   15-PRO   16-LEU   17-LEU   18-LEU 
+  19-LYN   20-LEU   21-LEU   22-LYN   23-SER   24-VAL   25-GLY   26-ALA   27-GLN 
+  28-LYS   29-ASH   30-THR   31-TYR   32-THR   33-MET   34-LYS   35-GLU   36-VAL 
+  37-LEU   38-PHE   39-TYR   40-LEU   41-GLY   42-GLN   43-TYR   44-ILE   45-MET 
+  46-THR   47-LYS   48-ARN   49-LEU   50-TYR   51-ASP   52-ALA   53-ALA   54-GLN 
+  55-GLN   56-HIE   57-ILE   58-VAL   59-TYR   60-CYS   61-SER   62-ASN   63-ASP 
+  64-LEU   65-LEU   66-GLY   67-ASH   68-LEU   69-PHE   70-GLY   71-VAL   72-PRO 
+  73-SER   74-PHE   75-SER   76-VAL   77-LYS   78-GLU   79-HIE   80-ARG   81-LYN 
+  82-ILE   83-TYR   84-THR   85-MET   86-ILE   87-TYR   88-ARN   89-ASN   90-LEU 
+  91-CVAL  92-LIG 
+
+Qprep> Residue     1 is GLN 
+Atom name  tac     charge 
+    1 N   N        -0.5000
+    2 H   H         0.3000
+    3 CA  CT        0.1400
+    4 HA  HC        0.0600
+    5 CB  CT       -0.1200
+    6 HB2 HC2       0.0600
+    7 HB3 HC2       0.0600
+    8 CG  CT       -0.1200
+    9 HG2 HC        0.0600
+   10 HG3 HC        0.0600
+   11 CD  C21       0.5000
+   12 OE1 O        -0.5000
+   13 NE2 N        -0.7600
+   14 HE21H         0.3800
+   15 HE22H         0.3800
+   16 C   C         0.5000
+   17 O   O        -0.5000
+
+Qprep> Preferences (use set command to change):
+ 1. solvent_pack                           2.4000
+ 2. solvent_names                      HOH ,SPC ,                                                                                                                                                                                              
+ 3. solute_density                         0.0579
+ 4. random_seed_solute                     179857
+ 5. random_seed_solvent                    758971
+Qprep> Qprep> Qprep> 
+Simulation sphere centre                   :    -30.120  14.310 -11.670
+Simulation radius                          :     30.000
+Qprep> 
+Solvation sphere centre                   :    -30.120  14.310 -11.670
+Library entry used to generate solvent  :       HOH 
+Radius of solvent sphere                =      30.00 A
+Grid spacing                            =       3.10 A 
+No. of solvent molecules in the sphere:  3791
+Minimum distance to solute heavy atoms:  2.40 A
+No. of solvent molecules to add to the system:  3269
+Qprep> Qprep> Assigned 11389 atom types.
+Assigned 11389 atomic charges.
+Made      1601 solute bonds.
+Made         0 extra bonds.
+Made      9807 solvent bonds.
+Made      2894 solute angles.
+Made      3269 solvent angles.
+Made      6146 solute torsions.
+Made         0 solvent torsions.
+Made       310 solute impropers.
+Made         0 solvent impropers.
+Made      4113 entries in the 1-4 neighbour list.
+Made        87 entries in the long-range 1-4 neighbour list.
+Made     17487 entries in list of excluded neighbours.
+Made        84 entries in list of long-range excluded neighbours.
+Made         0 solute hydrogens.
+Made      6538 solvent hydrogens.
+Made      458 solute  charge groups comprising a total of   1582 atoms.
+Made     3269 solvent charge groups comprising a total of   9807 atoms.
+Effective water radius                     : 29.82
+Topology successfully generated.
+Qprep> 
+---------------------------- Writing topology file ---------------------------
+solute atoms                :   1582
+solvent atoms               :   9807
+solvent mol atoms           :      3
+solvent dielectric as num*10:  80100
+co-ordinates                :  34167
+integer atom codes          :  11389
+solute bonds                :   1601
+solvent bonds               :   9807
+bond parameters             :     35
+solute angles               :   2894
+solvent angles              :   3269
+angle parameters            :     64
+torsions                    :   6146
+torsion parameters          :    181
+impropers                   :    310
+improper parameters         :     47
+charges                     :  11389
+total charge of not excluded:  -2.00
+charge groups               :   3727
+atom type parameters        :    130
+polar LJ pairs              :      0
+neighbour list              :   4113
+long-range neighbour list   :     87
+neighbour exclusion list    :  17487
+long-range exclusions       :     84
+residues                    :   3361
+molecules                   :   3271
+Atom type names             :    130
+SYBYL type information      :    130
+excluded atom list          :      0
+
+Qprep> Qprep> Qprep> 
+
+PDB file successfully written.
+
+Qprep> 
