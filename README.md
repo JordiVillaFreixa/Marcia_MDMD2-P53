@@ -1,5 +1,6 @@
 # Identification-of-MDM2-P53-Inhibitors-Using-Machine-Learning-Guided-Screening
-DOI: 10.5281/zenodo.17058140
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17058140.svg)](https://doi.org/10.5281/zenodo.17058140)
+
 This Jupyter notebook helps users develop and evaluate machine-learning models for structure-based virtual screening, specifically targeting MDM2 at the p53 binding site. The models are classification-based and can be trained with or without hyperparameter tuning and cross-validation.
 
 This methodology and code are based on the Nature Protocols paper: Tran-Nguyen, V. K., Junaid, M., Simeon, S., & Ballester, P. J. (2023). A practical guide to machine-learning scoring for structure-based virtual screening. We have made some changes to hyperparameter optimization and added cross-validation for each model.
