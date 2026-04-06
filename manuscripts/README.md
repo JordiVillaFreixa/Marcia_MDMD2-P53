@@ -1,20 +1,25 @@
 # Manuscripts
 
-This folder contains an ACS/JCIM-style application note proposal for the workflow present in this repository.
+This folder stores the manuscript sources associated with the broader `Marcia_MDMD2-P53` project. It is organized to hold multiple papers over time.
 
-Files:
+Current paper set:
 
-- `main.tex`: manuscript draft using the local `achemso` class for `jcisd8`.
-- `figures/q6_lie_schema.tex`: TikZ source for the general Q6/LIE workflow figure used as Figure 1.
-- `refs.bib`: bibliography for the current draft.
-- `submission_readiness.md`: journal-fit notes and remaining metadata placeholders.
-- `word_count_statement.md`: approximate word-count statement for the corresponding author.
+- `MARCIAH_main.tex`: main application-note manuscript for the MARCIAH software workflow.
+- `MARCIAH_SI.tex`: supporting information for the MARCIAH manuscript.
+- `figures/q6_lie_schema.tex`: TikZ source for the workflow figure used in the main manuscript.
+- `refs.bib`: bibliography shared by the current manuscript set.
+- `submission_readiness.md`: submission and scope notes for the current draft.
+- `word_count_statement.md`: approximate word-count note for the main manuscript.
 
 Build locally from this folder with:
 
 ```bash
-pdflatex main.tex
-bibtex main
-pdflatex main.tex
-pdflatex main.tex
+make
+```
+
+Or build each document separately with:
+
+```bash
+make main
+make si
 ```
