@@ -1,0 +1,41 @@
+\begin{tikzpicture}[
+  font=\sffamily,
+  >=Latex,
+  box/.style={
+    rounded corners=3pt,
+    draw=#1,
+    fill=#1!8,
+    line width=0.9pt,
+    minimum width=3.1cm,
+    minimum height=1.2cm,
+    align=center
+  },
+  arrow/.style={-{Latex[length=3mm]}, line width=0.9pt, draw=black!70},
+  note/.style={font=\small\itshape, align=center}
+]
+
+\definecolor{navy}{RGB}{30,65,110}
+\definecolor{teal}{RGB}{53,137,132}
+\definecolor{orange}{RGB}{214,132,61}
+\definecolor{crimson}{RGB}{160,63,73}
+
+\node[box=navy] (start) at (0,0) {Prepared protein, ligand,\\and parameter inputs};
+\node[box=teal] (lig) at (-4.2,-2.3) {Ligand module\\prep, equilibration,\\production replicas};
+\node[box=teal] (comp) at (4.2,-2.3) {Complex module\\prep, equilibration,\\production replicas};
+\node[box=orange, minimum width=3.9cm, minimum height=1.4cm] (logs) at (0,-4.9) {Q-surr. energy scan\\from production log files};
+\node[box=crimson, minimum width=3.8cm, minimum height=1.4cm] (qc) at (0,-7.4) {Error $< 1$ kcal/mol?\\If not, extend MD};
+\node[box=crimson, minimum width=4.5cm, minimum height=1.7cm] (calc) at (0,-10.0) {LIE calculation and analysis\\\(\Delta G = \beta \Delta V_{\mathrm{el}} + \alpha \Delta V_{\mathrm{vdW}} + \gamma\)\\CSV results + regression plots};
+
+\draw[arrow] (start) -- (lig);
+\draw[arrow] (start) -- (comp);
+\draw[arrow] (lig) -- (logs);
+\draw[arrow] (comp) -- (logs);
+\draw[arrow] (logs) -- (qc);
+\draw[arrow] (qc) -- (calc);
+
+\node[note] at (-4.2,-3.5) {Interaction terms from\\ligand in water};
+\node[note] at (4.2,-3.5) {Interaction terms from\\ligand + protein environment};
+\node[note] at (0,-6.0) {Plot/report generation identifies\\unstable trajectories};
+\node[note] at (0,-8.6) {Extension inputs written under\\\texttt{check\_errors/} when needed};
+
+\end{tikzpicture}
